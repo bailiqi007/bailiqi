@@ -1,0 +1,14 @@
+[2020-05-10 17:39:56,496] logger.py -> test2 line:140 [INFO] 222222
+[2020-05-10 17:39:56,496] logger.py -> test2 line:140 [INFO] 222222
+[2020-05-10 17:39:56,497] logger.py -> test2 line:141 [INFO] 222222
+[2020-05-10 17:39:56,497] logger.py -> test2 line:141 [INFO] 222222
+[2020-05-10 17:40:14,910] logger.py -> test2 line:140 [INFO] 222222
+[2020-05-10 17:40:14,910] logger.py -> test2 line:140 [INFO] 222222
+[2020-05-10 17:40:14,911] logger.py -> test2 line:141 [INFO] 222222
+[2020-05-10 17:40:14,911] logger.py -> test2 line:141 [INFO] 222222
+[2020-05-10 17:43:43,195] logger.py -> test line:134 [INFO] 愤怒的小猥琐
+[2020-05-10 17:43:43,196] logger.py -> test line:135 [INFO] 愤怒的小猥琐
+[2020-05-10 17:43:43,197] logger.py -> test2 line:140 [INFO] 222222
+[2020-05-10 17:43:43,197] logger.py -> test2 line:140 [INFO] 222222
+[2020-05-10 17:43:43,198] logger.py -> test2 line:141 [INFO] 222222
+[2020-05-10 17:43:43,198] logger.py -> test2 line:141 [INFO] 222222

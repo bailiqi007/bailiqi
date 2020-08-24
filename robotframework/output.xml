@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.3 on win32)" generated="20200825 00:23:13.321" rpa="false">
+<suite id="s1" name="Base Test" source="E:\0_github仓库\bailiqi\robotframework\testcase\base_test.robot">
+<test id="s1-t1" name="测试用例1">
+<kw name="Create Github Repo" library="keywords.keyword.Kw">
+<arguments>
+<arg>zmy</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20200825 00:23:13.361" level="INFO">info 的打印日志</msg>
+<msg timestamp="20200825 00:23:13.368" level="INFO">${resp} = Created repo with name: zmy</msg>
+<status status="PASS" starttime="20200825 00:23:13.361" endtime="20200825 00:23:13.368"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20200825 00:23:13.368" endtime="20200825 00:23:13.370"></status>
+</kw>
+<kw name="Get Github Repo" library="keywords.keyword.Kw">
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20200825 00:23:13.371" level="INFO">${result} = Getting repos now...</msg>
+<status status="PASS" starttime="20200825 00:23:13.370" endtime="20200825 00:23:13.371"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${result}</arg>
+</arguments>
+<status status="PASS" starttime="20200825 00:23:13.372" endtime="20200825 00:23:13.379"></status>
+</kw>
+<doc>模块中使用同名的类</doc>
+<tags>
+<tag>模板</tag>
+</tags>
+<status status="PASS" starttime="20200825 00:23:13.359" endtime="20200825 00:23:13.381" critical="yes"></status>
+</test>
+<test id="s1-t2" name="测试用例2">
+<kw name="Delete Github Repo" library="keywords.keyword.Kw.ClsWithDifName">
+<arguments>
+<arg>zmy</arg>
+</arguments>
+<assign>
+<var>${rsp}</var>
+</assign>
+<msg timestamp="20200825 00:23:13.384" level="INFO">${rsp} = Deleting repo with name: zmy</msg>
+<status status="PASS" starttime="20200825 00:23:13.384" endtime="20200825 00:23:13.385"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${rsp}</arg>
+</arguments>
+<status status="PASS" starttime="20200825 00:23:13.385" endtime="20200825 00:23:13.385"></status>
+</kw>
+<doc>模块名和类型不一致</doc>
+<tags>
+<tag>模板</tag>
+</tags>
+<status status="PASS" starttime="20200825 00:23:13.383" endtime="20200825 00:23:13.385" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200825 00:23:13.323" endtime="20200825 00:23:13.386"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0">模板</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="Base Test">Base Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
